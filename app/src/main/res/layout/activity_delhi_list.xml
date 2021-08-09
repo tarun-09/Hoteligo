@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DelhiListActivity"
+    android:background="#C19F7B"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/hotel_delhi"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.4"
+        android:padding="10dp">
+
+        <ListView
+            android:id="@+id/delhi_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#D3D3D3"
+            android:divider="#C0C0C0"
+            android:dividerHeight="2dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

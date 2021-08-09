@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/login"
+    android:padding="20sp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="40dp"
+        android:layout_marginTop="200dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="SIGN IN"
+        android:backgroundTint="@color/black"
+        android:textSize="20dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="NOT A USER? SIGN UP HERE"
+        android:backgroundTint="#fff"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btn_reset_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FORGOT PASSWORD? CLICK HERE"
+        android:textColor="@color/black"
+        android:background="@android:color/transparent"/>
+
+
+</LinearLayout>
